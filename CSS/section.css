@@ -1,0 +1,103 @@
+
+.section {
+    color: #555;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.section__interactive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 10px;
+    margin-right: 10px;
+    max-width: 1300px;
+}
+
+.section__input {
+    border-radius: 5px;
+}
+
+.section__formBrowse {
+    padding: 0px 5px;
+}
+
+.section__myName {
+    color: rgb(177, 25, 108);
+    font-size: 51px;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 2px 5px rgba(156, 132, 96, 0.952);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.section__myPhoto {
+    display: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: none;
+    border-radius: 10%;
+    box-shadow: 13px 13px 24px -7px rgb(141, 128, 132);
+}
+
+.section__importantWord {
+    color: crimson;
+}
+
+.section__photos {
+    box-shadow: 1px 5px 95px -37px #ff0f57;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.section__email {
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+}
+
+.section__email:link {
+    text-decoration: none;
+    color: #2b7c09;
+}
+
+.section__email:visited {
+    color: darkgreen;
+}
+
+.section__email:focus {
+    outline: 2px solid currentColor;
+}
+
+.section__email:hover {
+    color: fuchsia;
+    border-bottom: none;
+    outline: none;
+}
+
+.section__email:active {
+    color: coral;
+}
+
+.section__linkYC:link {
+    text-decoration: none;
+}
+
+.section__linkYC:visited {
+    color: darkgreen;
+}
+
+.section__linkYC:focus {
+    outline: 0px solid currentColor;
+}
+
+.section__linkYC:hover {
+    color: fuchsia;
+    border-bottom: none;
+    outline: none;
+}
+
+.section__linkYC:active {
+    color: rgb(160, 71, 211);
+}

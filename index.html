@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King's content style</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+      <link href="CSS/style.css" rel="stylesheet">
+      <link href="CSS/header.css" rel="stylesheet">
+      <link href="CSS/section.css" rel="stylesheet">
+      <link href="CSS/container.css" rel="stylesheet">
+      <link href="CSS/navigation.css" rel="stylesheet">
+      <link href="CSS/button.css" rel="stylesheet">
+      <link href="CSS/table.css" rel="stylesheet">
+      <link href="CSS/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="body">
+      <div class="container">
+        <header>
+          <h1 class="header__title js-headerTitle">
+            Cześć! Welcome! Hi! Hello! Ciao! Servus! ¡Hola! Привет! Salut! Bok!
+            안녕! Szia! Hoi! Sveiki! Merhaba! Ahoj! Tere! 你好!
+          </h1>
+          <nav class="navigation">
+            <ul class="navigation__item">
+              <li><a class="navigation__link" href="#O-mnie"><button class=" navigation__link navigation__link--button">about</button> </a></li>
+              <li>
+                <a class="navigation__link" href="#W-wolnym-czasie"
+                  ><button class="navigation__link navigation__link--button">free time</button> </a
+                >
+              </li>
+              <li>
+                <a class="navigation__link" href="#Moja-ocena-jedzenia"
+                  ><button class="navigation__link navigation__link--button">food</button></a
+                >
+              </li>
+              <li>
+                <a class="navigation__link" href="#Napisz-do-mnie"
+                  ><button class="navigation__link navigation__link--button">contact</button></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+          <div class="section__interactive">
+            <button class="section__button js-buttonWelcome " title="naciśnij by usunąć powitanie">
+              Usuń powitanie
+            </button>
+            <button class="section__button js-buttonHavefun " title="naciśnij by usunąć Have Fun!">
+              Usuń Have Fun!
+            </button>
+            <form 
+              class="section__formBrowse"
+              action="https://www.google.com/search"
+              target="_blank"
+            >
+            <input 
+              class="section__input" 
+              name="q"
+            >
+        <button class="section__button">
+          Szukaj🔎
+        </button>
+            </form>
+          </div>
+          <main class="main">
+            <section class="section">
+                <h2 class="section__myName">KINGA TOS</h2>
+                <strong>Dzień dobry! 💁‍♀️ </strong>
+                Bardzo mi miło, że tu jesteś! 🤗
+                <span class="section__importantWord js-importantWord">Have fun!</span>
+              <div>
+                <img
+                  class="section__myPhoto"
+                  width="250"
+                  src="https://i.ibb.co/Y7wByrj/graduation.jpg"
+                  alt="Ukończenie szkoły">
+              </div>
+            </section>
+            <section class="section">
+              <h2 id="O-mnie" class="section__header">O mnie...</h2>
+              Na początek, kilka słów o mnie. Mam na imię
+              <strong>Kinga Tos</strong>, mieszkam w Rzeszowie. Z wykształcenia
+              jestem magistrem bezpieczeństwa-wewnętrznego o specjalizacji
+              kryminalistyka i kryminologia oraz służby ochrony bezpieczeństwa
+              publicznego. 🎓<br>
+              Mimo wykształcenia mam smykałkę do innych rzeczy... Uwielbiam
+              podróże małe i duże. Kocham jeść, aby spalić niezliczone kalorie
+              dużo jeżdzę na rowerze, gram w badmintona oraz chodzę na siłownię.🤸‍♀️
+              <br>
+              Jestem fanką motoryzacji, lubię szybką jazdę.<br>
+              Od dłuższego czasu interesuje się programowaniem stron www oraz
+              tworzeniem aplikacji.👨‍💻 <br>
+              Chciałabym rozwijać się w tym kierunku.❤️<br>
+              Uważam, że <strong>branża IT</strong> jest przyszłościowa z
+              świetnymi zarobkami. 💸
+            </section>
+            <section class="section">
+              <h2 id="W-wolnym-czasie" class="section__header">W wolnym czasie...</h2>
+              W wolnych chwilach oprócz amatorskiego programowania stron www oraz
+              uczestnictwa w kursie
+              <a
+                class="section__linkYC"
+                rel="noreferrer noopener"
+                href="http://youcode.pl"
+                title="otwiera się w nowej karcie youcode.pl"
+                target="_blank"
+                >youcode</a
+              >, wymienionych powyżej zainteresowań i hobby -
+              <strong>lubię robić zdjęcia.</strong> 📸 Poniżej to tylko niektóre z
+              moich prowizorycznych zdjęć. Uwieczniam na zdjęciach naturę,
+              jedzenie, niebo, momenty, które przykuwają mi szczególną uwagę...
+            </section>
+            <h3 id="Kilka-ujęć" class="section__header">Oto kilka moich ujęć:</h3>
+            <div class="section__photos">
+              <img width="200" src="https://i.ibb.co/TKqbq5f/rainbow.jpg" alt="Tecza2">
+              <img
+                width="200"
+                height="300"
+                src="https://i.ibb.co/jwR5Dgn/view.jpg"
+                alt="Widok z balkonu">
+              <img
+                width="200"
+                src="https://i.ibb.co/mHfc5LC/glassofwine.jpg"
+                alt="Wino Zamojskie">
+              <img width="200" src="https://i.ibb.co/XknWZVP/rainbowtwo.jpg" alt="Tecza">
+              <img width="200" src="https://i.ibb.co/4WfjBFf/balcony.jpg" alt="Widok z balkonu">
+              <img
+                width="200"
+                src="https://i.ibb.co/whcxq8F/veneciapalace.jpg"
+                alt="Venecia Palace Hotel">
+              <img
+                width="200"
+                height="300"
+                src="https://i.ibb.co/Y2jLskc/cat.jpg"
+                alt="Kotek">
+              <img
+                width="200"
+                height="300"
+                src="https://i.ibb.co/bKVM9vt/maindish.jpg"
+                alt="Jedzenie">
+              <img width="200" height="300" src="https://i.ibb.co/CzRwgwR/deser.jpg" alt="Deser">
+              <img
+                width="200"
+                height="300"
+                src="https://i.ibb.co/tcBpZ16/apperitiv.jpg"
+                alt="Przystawka">
+              </div>
+            <div class="table__container">
+              <table class="table" id="Moja-ocena-jedzenia">
+                    <caption class="table__caption">
+                      Potrawy świata i moja ocena w skali (1-5)
+                    </caption>
+                    <thead>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Potrawa</th>
+                        <th class="table__cell table__cell--header" scope="col">
+                          Kraj pochodzenia
+                        </th>
+                        <th class="table__cell table__cell--header" scope="col">Moja ocena</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">
+                          Pizza neapolitańska
+                        </th>
+                        <td class="table__cell" rowspan="4">Włochy</td>
+                        <td class="table__cell">4</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">
+                          Spaghetti bolognese
+                        </th>
+                        <td class="table__cell">3</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Lasagne</th>
+                        <td class="table__cell">4</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Bruschetta</th>
+                        <td class="table__cell">3</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">
+                          American Burger
+                        </th>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">4</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">
+                          Pierogi ruskie
+                        </th>
+                        <td class="table__cell">Polska/Ukraina</td>
+                        <td class="table__cell">5</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Quesadillas</th>
+                        <td class="table__cell" rowspan="2">Meksyk</td>
+                        <td class="table__cell">3</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">
+                          Chili con carne
+                        </th>
+                        <td class="table__cell">3</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Paella</th>
+                        <td class="table__cell">Hiszpania</td>
+                        <td class="table__cell">3</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Pad thai</th>
+                        <td class="table__cell">Tajlandia</td>
+                        <td class="table__cell">4</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Zupa pho</th>
+                        <td class="table__cell">Wietnam</td>
+                        <td class="table__cell">4</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Sushi</th>
+                        <td class="table__cell">Japonia</td>
+                        <td class="table__cell">4</td>
+                      </tr>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">
+                          Schabowy z ziemniakami i mizerią
+                        </th>
+                        <td class="table__cell">Polska</td>
+                        <td class="table__cell">5</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row" colspan="2">
+                          Suma pkt:
+                        </th>
+                        <td class="table__cell">49</td>
+                      </tr>
+                    </tfoot>
+                  </table>
+              </div>
+              <section class="section" id="Napisz-do-mnie">
+                <h4 class="section__header">Napisz do mnie 💌</h4>
+                e-mail:<a class="section__email" href="mailto:pantherkika@gmail.com"
+                  >pantherkika@gmail.com</a
+                >
+              </section>
+            </div>
+          </main>
+    <footer class="footer">
+      &copy;Copyright by Kinga 2022 All rights reserved.
+    </footer>
+  </body>
+</html>

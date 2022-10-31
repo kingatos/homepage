@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: #dfd6e7;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: auto;
+    text-align: center;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+
+/* znikanie do .js */
+.disappearing {
+    display: none;
+}
