@@ -1,8 +1,11 @@
 .container {
     background-color: #eee;
-    margin: 50px;
     border-radius: 10px;
-    border-style: double;
-    border-color: #E0EFD2;
     box-shadow: 1px 5px 95px -37px #ff0f57;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
 }
