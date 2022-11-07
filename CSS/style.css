@@ -7,15 +7,13 @@ html {
 }
 
 .body {
-    background: #dfd6e7;
-    font-family: "Montserrat", sans-serif;
-    color: black;
-    padding: 15px;
-    font-size: 17px;
-    font-weight: normal;
-    line-height: 1.6;
+    padding: 30px;
     margin: auto;
-    text-align: center;
+    background-image: url("https://i.ibb.co/mRRnhYD/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main {
