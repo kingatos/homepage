@@ -1,20 +1,31 @@
-console.log("Hello everyone!")
+{
+    const welcome = () => {
+        console.log("Hello world!")
+    };
+    
+    const buttonWelcome = document.querySelector(".js-buttonWelcome");
+    const navigationHeader = document.querySelector(".js-headerTitle");
+    const importantWord = document.querySelector(".js-importantWord");
+    const buttonHavefun = document.querySelector(".js-buttonHavefun");
+    const disappearing = document.querySelector(".disappearing");
 
-let buttonWelcome = document.querySelector(".js-buttonWelcome");
-let navigationHeader = document.querySelector(".js-headerTitle");
-let importantWord = document.querySelector(".js-importantWord");
-let buttonHavefun = document.querySelector(".js-buttonHavefun");
-let disappearing = document.querySelector(".disappearing");
+    const toggleAndChangeTextHeader = () => {
+        navigationHeader.classList.toggle("disappearing");
+        buttonWelcome.innerText = navigationHeader.classList.contains("disappearing") ? "Przywróć powitanie" : "Usuń powitanie";
+    };
+    
+    const toggleAndChangeTextImportantWord = () => {
+        importantWord.classList.toggle("disappearing");
+        buttonHavefun.innerText = importantWord.classList.contains("disappearing") ? "Przywróć Have Fun" : "Usuń Fave Fun!";
+    };
+    
+    const init = () => {
+        buttonWelcome.addEventListener("click", toggleAndChangeTextHeader);
+        buttonHavefun.addEventListener("click", toggleAndChangeTextImportantWord);
+        welcome();
+    };
 
+    init();
+}
 
-
-buttonWelcome.addEventListener("click", () => {
-    navigationHeader.classList.toggle("disappearing");
-    buttonWelcome.innerText = navigationHeader.classList.contains("disappearing") ? "Przywróć powitanie" : "Usuń powitanie";
-});
-
-buttonHavefun.addEventListener("click", () => {
-    importantWord.classList.toggle("disappearing");
-    buttonHavefun.innerText = importantWord.classList.contains("disappearing") ? "Przywróć Have Fun" : "Usuń Fave Fun!";
-
-});
+    
