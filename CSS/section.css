@@ -59,6 +59,24 @@
     display: -webkit-inline-box;
 }
 
+@media (max-width: 320px) {
+    .section__photos {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .section__photos {
+        text-align: center;
+    }
+}
+
+@media (max-width: 986px) {
+    .section__photos {
+        text-align: center;
+    }
+}
+
 
 .section__email {
     font-size: 16px;
