@@ -9,3 +9,18 @@
     font-family: "Montserrat", sans-serif;
     color: black;
 }
+
+@media (max-width:200px) {
+    .container {
+        margin: 0;
+    }
+    
+}
+
+@media (max-width:700px) {
+    .container {
+        margin: 0;
+    }
+    
+}
+

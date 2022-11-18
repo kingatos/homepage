@@ -11,8 +11,13 @@
 .navigation__item {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+@media (max-width: 400px) {
+    .navigation__item {
+        flex-wrap: wrap;
+    }
 }
 
 .navigation__link {

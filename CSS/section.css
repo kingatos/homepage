@@ -11,11 +11,16 @@
 
 .section__interactive {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
     padding-top: 10px;
     margin-right: 10px;
     max-width: 1300px;
+}
+
+@media (max-width: 767px) {
+    .section__interactive {
+        flex-wrap: wrap;
+    }
 }
 
 .section__input {
