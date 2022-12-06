@@ -13,12 +13,6 @@
     justify-content: flex-end;
 }
 
-@media (max-width: 400px) {
-    .navigation__item {
-        flex-wrap: wrap;
-    }
-}
-
 .navigation__link {
     color:#040302cb;
     font-weight: none;
@@ -27,10 +21,19 @@
     padding: 10px;
 }
 
+@media (max-width: 375px) {
+    .navigation__link {
+        width: 90%;
+        font-size: 8px;
+    }
+}
+
 .navigation__link--button {
-    background-color: rgb(163, 145, 154);
-    border-radius: 5px;
-    border-style: none;
+    background-color: rgba(175, 154, 164, 0.37);
+    border-radius: 10px;
+    border-top: rgb(160 71 211);
+    border-left: rgb(160 71 211) 1px;
+
 }
 
 .navigation__link--button:hover {

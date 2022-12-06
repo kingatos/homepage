@@ -1,12 +1,20 @@
 .section__button {
-    background-color: rgb(163, 145, 154);
+    background-color: rgba(175, 154, 164, 0.37);
     color:#040302cb;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 9px;
     margin: 5px;
+    border-top: rgb(160 71 211);
+    border-left: rgb(160 71 211) 1px;
+
+}
+
+@media (max-width:375px) {
+    .section__button {
+        font-size: 10px;
+    }
 }
 
 .section__button:hover {

@@ -17,14 +17,27 @@
     max-width: 1300px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 375px) {
     .section__interactive {
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 
 .section__input {
-    border-radius: 5px;
+    height: 34px;
+    border-radius: 10px;
+    border-top: rgb(160 71 211);
+    border-left: rgb(160 71 211) 1px;
+
+}
+
+@media (max-width: 375px) {
+    .section__input {
+        display: flex;
+        justify-content: center;
+        height: 20px;
+    }
 }
 
 .section__formBrowse {
@@ -40,6 +53,12 @@
     margin-top: 10px;
 }
 
+@media (max-width:375px) {
+    .section__myName {
+    font-size: 30px;
+    }
+}
+
 .section__myPhoto {
     display: center;
     margin-top: 50px;
@@ -47,6 +66,12 @@
     border-style: none;
     border-radius: 10%;
     box-shadow: 13px 13px 24px -7px rgb(141, 128, 132);
+}
+
+@media (max-width:320px) {
+    .section__myPhoto {
+        width: 200px;
+    }
 }
 
 .section__importantWord {
@@ -76,7 +101,6 @@
         text-align: center;
     }
 }
-
 
 .section__email {
     font-size: 16px;
