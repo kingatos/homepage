@@ -2,7 +2,6 @@
     text-align: center;
     background-color: #eee;
     border-style: none;
-    border-color: #E0EFD2;
     border-radius: 10px;
     box-shadow: 1px 5px 95px -37px #ff0f57;
     padding: 12px;
@@ -31,7 +30,6 @@
 .navigation__link--button {
     background-color: rgb(163, 145, 154);
     border-radius: 5px;
-    border-color: gray;
     border-style: none;
 }
 
