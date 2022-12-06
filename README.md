@@ -3,11 +3,13 @@
 ## PREVIEW
 ![How to use](https://i.ibb.co/DQSW7Kp/homepage.gif)
 ## DESTRIPTION
-- This is my first website about myself with the support youcode.pl. Check it out!
+This is my first website about myself with the support youcode.pl. It shows my first steps about Front-End Developer. This website is responsive for smartphones and devices with 4K quality 📲💻 Check it out and have fun! stay tuned 🤞
 ## TECHNOLOGIES
-- based HTML
-- CSS
-- JavaScript ES6+
-- BEM Convention
-- FLEX
-- Normalise.css
+ `based HTML`
+ `CSS`
+ `java script ES6+`
+ `BEM Convention`
+ `FLEX`
+ `normalise.css`
+ `media queries`
+ 
