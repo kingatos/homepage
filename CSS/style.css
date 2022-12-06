@@ -18,7 +18,7 @@ html {
 
 .main {
     margin: 0 auto;
-    max-width: 1000px;
+    flex-basis: 1000px;
 }
 
 @media (max-width: 220px) {
