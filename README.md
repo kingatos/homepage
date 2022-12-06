@@ -12,4 +12,4 @@ This is my first website about myself with the support youcode.pl. It shows my f
  `FLEX`
  `normalise.css`
  `media queries`
- 
+ `open graph`
