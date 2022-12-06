@@ -25,11 +25,9 @@
 }
 
 .section__input {
+    border-style:none;
     height: 34px;
     border-radius: 10px;
-    border-top: rgb(160 71 211);
-    border-left: rgb(160 71 211) 1px;
-
 }
 
 @media (max-width: 375px) {
